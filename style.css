@@ -1,0 +1,24 @@
+*{
+    background: #fff;
+    text-decoration: none;
+}
+.header .nav .items{
+    display: flex;
+    background: #000000ff;
+}
+.header .nav .items a{
+    margin-left: 150px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 24pt;
+    padding: 10px;
+    display: inline-block;
+    color: #ffffffff;
+    background: #ffffff00;
+}
+
+.bd li ul{
+    font-size: 32px;
+    font-family: sans-serif;
+    background: #ff0000ff;
+}
