@@ -1,0 +1,49 @@
+body{
+    background: url("wallp.jpg");
+    background-size: cover;
+}
+.navbar{
+    background: #000;
+    margin: auto;
+    padding: 30px 50px;
+    opacity: 60%;
+}
+.navbar a{
+    padding: 20px 20px;
+    background-color: #000;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #ff0;
+    transition: 0.5s;}
+.navbar a:hover{
+    color: #000;
+    transition: 0.5s;
+}
+.main ul{
+    background-color: #fff;
+    width: 70vw;
+    height: 900px;
+    padding: 50px 20px;
+    opacity: 20%;
+    transition: 0.5s;
+    margin: auto;
+    list-style-type: none;
+}
+.main ul:hover{
+    opacity: 100%;
+    transition: 1.0s;
+}
+.main ul li{
+    opacity: 50%;
+    background-color: #f00;
+    font-family: sans-serif;
+    font-size: 26px;
+    transition: 1.0s;
+    padding: 20px;
+    height: 500px;
+}
+.main ul li:hover{
+    transition: 1.0s;
+    opacity: 100%;
+}
